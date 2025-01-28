@@ -3,6 +3,7 @@
 
 # MODUS PONENS POINT TO WRONG INDICES
 # USING PREMISES FROM GAMMA OTHER THAN ANTECEDENT IS NOT SUPPORTED
+# This is not a very good implementation, but if you're desperate.
 
 # - = \neg
 # > = \rightarrow
