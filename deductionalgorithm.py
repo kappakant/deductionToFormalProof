@@ -1,6 +1,11 @@
 # Given an axiomatic proof utilizing an assumption by deduction theorem, return a valid axiomatic proof
 # that does not use deduction theorem
 
+# TODO
+# Fix modus ponens
+# Only add parentheses when necessary
+# Add case for premise that's not equal to antecedent
+
 # MODUS PONENS POINT TO WRONG INDICES
 # USING PREMISES FROM GAMMA OTHER THAN ANTECEDENT IS NOT SUPPORTED
 # This is not a very good implementation, but I haven't found any other scripts for this. 
