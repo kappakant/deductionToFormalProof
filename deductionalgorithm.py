@@ -1,6 +1,9 @@
 # Given an axiomatic proof utilizing an assumption by deduction theorem, return a valid axiomatic proof
 # that does not use deduction theorem
 
+# MODUS PONENS POINT TO WRONG INDICES
+# USING PREMISES FROM GAMMA OTHER THAN ANTECEDENT IS NOT SUPPORTED
+
 # - = \neg
 # > = \rightarrow
 # lines demarcated by \n
