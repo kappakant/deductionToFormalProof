@@ -3,11 +3,12 @@
 
 # MODUS PONENS POINT TO WRONG INDICES
 # USING PREMISES FROM GAMMA OTHER THAN ANTECEDENT IS NOT SUPPORTED
-# This is not a very good implementation, but if you're desperate.
+# This is not a very good implementation, but I haven't found any other scripts for this. 
 
 # - = \neg
 # > = \rightarrow
 # lines demarcated by \n
+
 with open("pfromnotnotp.txt") as example:
     axiomaticProof = example.readlines()
     axiomaticProof = [x.strip() for x in axiomaticProof]
